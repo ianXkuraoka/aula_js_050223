@@ -20,3 +20,13 @@ document.write("<br></br>")
 let data4 =new Date().getMonth()+1
 document.write(data4)
 document.write("<br></br>")
+
+//pega o ano
+let data5 =new Date().getFullYear();
+document.write(data5)
+document.write("<br></br>")
+
+//pega o dia da semana
+let data6 =new Date()
+let diasSemana=['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
+document.write(diasSemana[data6.getDay()])
