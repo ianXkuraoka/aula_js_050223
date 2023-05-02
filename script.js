@@ -34,4 +34,4 @@ let dia =(' 0'+data7.getDate()).slice(0-3)
 let mes =data7.getMonth()
 let meses =['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 let ano =data7.getFullYear()
-document.write(dia+ ' de '+meses[mes]+' de '+ano)
+document.write(dia+ ' de '+meses[mes-1]+' de '+ano)
