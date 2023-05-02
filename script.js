@@ -15,3 +15,8 @@ document.write("<br></br>")
 let data2 =new Date().getDate()
 document.write(('0'+data2).slice(0-2));
 document.write("<br></br>")
+
+//pega o mês
+let data4 =new Date().getMonth()+1
+document.write(data4)
+document.write("<br></br>")
